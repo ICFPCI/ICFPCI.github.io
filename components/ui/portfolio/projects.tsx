@@ -47,6 +47,24 @@ export default function Projects() {
 							</Button>
 						</Link>
 					</div>
+					<div className="border-2 border-black p-8">
+						<h4 className="text-3xl font-bold mb-4">ASCIIArt</h4>
+						<p className="text-base md:text-xl mb-6">
+							App web para aplicar filtro ASCII a imagenes. Construida utilizando NextJS.
+						</p>
+						<div className="flex gap-2 flex-wrap">
+							<Link href="https://github.com/icfpci/ASCIIArt-NextJS">
+								<Button variant="outline" className="border-2 border-black hover:bg-black hover:text-white text-xl py-4 px-8">
+									Ver Proyecto
+								</Button>
+							</Link>
+							<Link href="https://icfpci.github.io/ASCIIArt-NextJS/">
+								<Button variant="outline" className="border-2 border-black hover:bg-black hover:text-white text-xl py-4 px-8">
+									Visitar Pagina
+								</Button>
+							</Link>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
